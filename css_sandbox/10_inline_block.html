@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Inline & Block Styling</title>
+    <style>
+
+        li {
+            display: inline;
+        }
+
+        li a {
+            padding-right: 20px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        .box {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 32.8%;
+          background: #f4f4f4;
+          padding: 20px;
+          margin-bottom: 15px;
+        }
+    </style>
+  <body>
+    <ul>
+      <li><a href="#">Technology</a></li>
+      <li><a href="#">Bussiness</a></li>
+      <li><a href="#">Fashion</a></li>
+    </ul>
+    <br><br>
+    <img src="./img/leaf.png" alt="My Image">
+    <img src="./img/leaf.png" alt="My Image">
+
+    <br><br>
+    
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam aliquam aspernatur beatae vel tempore voluptatibus nemo facere necessitatibus at!</p>
+    </div>
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam aliquam aspernatur beatae vel tempore voluptatibus nemo facere necessitatibus at!</p>
+    </div>
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam aliquam aspernatur beatae vel tempore voluptatibus nemo facere necessitatibus at!</p>
+    </div>
+  </body>
+</html>
+
+<!-- No margin auto on inline elements -->
