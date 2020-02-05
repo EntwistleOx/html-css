@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Float & Align</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4em;
+      }
+      .container {
+        max-width: 960px;
+        margin: 30px auto;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      .box {
+        background: #f4f4f4;
+        border: 1px solid #333;
+        padding: 20px;
+        margin-bottom: 15px;
+      }
+
+      .box p {
+        /* text align */
+        text-align: left;
+        text-align: right;
+        text-align: center;
+        text-align: justify;
+      }
+
+      #box-2 {
+        float: left;
+        width: 68%;
+      }
+
+      #box-3 {
+        float: right;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box-1">
+        <h3>Heading 1</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque,
+          officia veritatis! Incidunt quas sunt vitae, ipsam accusantium ipsum
+          ea modi.
+        </p>
+      </div>
+      <div class="box" id="box-2">
+        <h3>Heading 2</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque,
+          officia veritatis! Incidunt quas sunt vitae, ipsam accusantium ipsum
+          ea modi.
+        </p>
+      </div>
+      <div class="box" id="box-3">
+        <h3>Heading 3</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque,
+          officia veritatis! Incidunt quas sunt vitae, ipsam accusantium ipsum
+          ea modi.
+        </p>
+      </div>
+      <div class="clr"></div>
+      <div class="box" id="box-4">
+        <h3>Heading 4</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque,
+          officia veritatis! Incidunt quas sunt vitae, ipsam accusantium ipsum
+          ea modi.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
