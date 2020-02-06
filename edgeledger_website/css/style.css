@@ -20,6 +20,17 @@ p {
 }
 
 /* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-primary {
   color: #93cb52;
 }
@@ -30,11 +41,31 @@ p {
   line-height: 1.1;
 }
 
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 
+/* Paddings */
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* Buttons */
 .btn {
   display: inline-block;
   color: #fff;
@@ -99,8 +130,24 @@ p {
   padding: 0 2rem;
 
   /* Overlay */
-  /* position: absolute;
-  top: 60px;
-  left: 0; */
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Section: what we do */
+#what .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#what .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#what .items .item i {
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
