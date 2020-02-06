@@ -26,7 +26,7 @@
     <!--Navbar-->
     <nav id="navbar">
       <h1 class="logo">
-        <span class="text-primary"><i class="fas fa-book-open"></i> Edge </span
+        <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span
         >Ledger
       </h1>
       <ul>
@@ -122,5 +122,71 @@
         </div>
       </div>
     </section>
+
+    <!--Section: Contact-->
+    <section id="contact">
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-hearing"><span class="text-dark">Contact</span> Us</h2>
+        <p>Please use the form below to contact us</p>
+        <form action="#">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phonenumber">Phone Number</label>
+            <input
+              type="text"
+              name="phonenumber"
+              id="phonenumber"
+              placeholder="Enter Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Message"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="btn btn-dark" />
+        </form>
+      </div>
+      <div class="map"></div>
+    </section>
+
+    <!--Section: Footer-->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; 2019, EdgeLedger, All Right Reserved</p>
+      </div>
+    </footer>
+
+    <!--Jquery CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Local JS-->
+    <script src="js/main.js"></script>
+
+    <!--Google Maps-->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3L_Luq8qz9ikc31c717qHQ1HmjIiPfbw&callback=initMap"
+      async
+      defer
+    ></script>
   </body>
 </html>
