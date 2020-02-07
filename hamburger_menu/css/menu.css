@@ -40,6 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.4s ease;
 }
 
 /* hamburger Lines */
@@ -56,4 +57,21 @@
 
 .menu-wrap .hamgurber > div:after {
   top: 10px;
+}
+
+/* Toggler Animation */
+.menu-wrap .toggler:checked + .hamgurber > div {
+  transform: rotate(135deg);
+}
+
+/* Lines Into X */
+.menu-wrap .toggler:checked + .hamgurber > div:before,
+.menu-wrap .toggler:checked + .hamgurber > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* Rotate On Hover When Checked */
+.menu-wrap .toggler:checked:hover + .hamgurber > div {
+  transform: rotate(225deg);
 }
